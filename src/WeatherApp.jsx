@@ -1,6 +1,6 @@
 import { useState } from "react";
 import InfoBox from "./InfoBox";
-import SearchBox from "./SearchBox";
+import SearchBox from "./searchBox";
 
 export default function WeatherApp() {
   const [weatherInfo, setWeatherInfo] = useState({
